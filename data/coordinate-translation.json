@@ -1,0 +1,74 @@
+{
+  "stations": [
+    {
+      "id": "a",
+      "x": 100,
+      "y": -50,
+      "value": 20,
+      "measurement_variance": 1
+    },
+    {
+      "id": "b",
+      "x": 102,
+      "y": -50,
+      "value": 30,
+      "measurement_variance": 2
+    },
+    {
+      "id": "c",
+      "x": 100,
+      "y": -48,
+      "value": 25,
+      "measurement_variance": 1
+    },
+    {
+      "id": "d",
+      "x": 102,
+      "y": -48,
+      "value": 35,
+      "measurement_variance": 2
+    }
+  ],
+  "candidates": [
+    {
+      "id": "short",
+      "sill": 25,
+      "range": 1
+    },
+    {
+      "id": "long",
+      "sill": 40,
+      "range": 3
+    }
+  ],
+  "targets": [
+    {
+      "id": "point",
+      "points": [
+        {
+          "x": 100,
+          "y": -50,
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "id": "block",
+      "points": [
+        {
+          "x": 100.5,
+          "y": -49.5,
+          "weight": 0.5
+        },
+        {
+          "x": 101.5,
+          "y": -48.5,
+          "weight": 0.5
+        }
+      ]
+    }
+  ],
+  "rank_tolerance": 1e-12,
+  "negative_variance_tolerance": 1e-10,
+  "z": 1.95996398454
+}
